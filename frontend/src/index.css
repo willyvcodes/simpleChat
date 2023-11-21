@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-900;
+}
+
+.currentUserMessage {
+  @apply rounded-br-none border-violet-400 bg-violet-400 text-white ml-auto;
+}
+
+.otherUserMessage {
+  @apply rounded-bl-none border-slate-500 bg-slate-500 text-white mr-auto;
+}
+
+.center-page {
+  @apply h-[100vh] flex flex-col justify-center items-center;
+}
